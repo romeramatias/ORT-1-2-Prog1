@@ -1,0 +1,14 @@
+Pilas, STACK:
+En una pila no se sabe el numero de elementos
+Se puede consultar si esta lleno o vacio
+Y ver el ultimo elemento de la pila
+Se recorre con un while
+
+Estructura de dato
+LIFO Last in, first out
+
+Metodos de pilas
+push()	apilar		agregar
+pop()	desapilar	quitar
+peek()	verTope		ver
+
