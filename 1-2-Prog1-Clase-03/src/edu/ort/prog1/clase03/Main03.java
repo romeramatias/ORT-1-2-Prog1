@@ -1,6 +1,6 @@
-package programa;
+package edu.ort.prog1.clase03;
 
-import clases.Empresa;
+import edu.ort.prog1.clase03.clases.Empresa;
 
 public class Main03 {
 

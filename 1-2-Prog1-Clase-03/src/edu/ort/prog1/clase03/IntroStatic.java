@@ -1,4 +1,4 @@
-package programa;
+package edu.ort.prog1.clase03;
 @SuppressWarnings("unused")
 public class IntroStatic {
 	

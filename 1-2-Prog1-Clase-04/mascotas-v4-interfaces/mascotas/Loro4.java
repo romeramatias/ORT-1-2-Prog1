@@ -1,0 +1,28 @@
+package mascotas;
+
+public class Loro4 extends Mascota4 {
+
+    private int volumen;
+
+    public Loro4(String nombre, int edad, int peso, int volumen) {
+        super(nombre, edad, peso); // Se crea primero una mascota
+        this.volumen = volumen; // Solo los loros tienen volumen (según mi modelo)
+    }
+
+    @Override
+    public String toString() {
+        // Obtengo la representación en String de la superclase Mascota y agrego los atributos de Loro
+        return super.toString() + " Con volumen " + this.volumen;
+    }
+    
+    @Override
+    public void expresarse() {
+        // El método abstracto expresarse en la superclase obliga a sobreescribir
+        System.out.println(super.getNombre() + ": PRRRR PRRRR");
+    }
+    
+    @Override
+    public void comer() {
+        System.out.println(super.getNombre() + ": PRRRR, ¡Este alpiste está brutal!");
+    }
+}

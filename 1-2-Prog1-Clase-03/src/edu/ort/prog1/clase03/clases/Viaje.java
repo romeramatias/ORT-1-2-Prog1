@@ -1,4 +1,4 @@
-package clases;
+package edu.ort.prog1.clase03.clases;
 
 public class Viaje {
 

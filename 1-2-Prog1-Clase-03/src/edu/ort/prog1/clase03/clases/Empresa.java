@@ -1,4 +1,4 @@
-package clases;
+package edu.ort.prog1.clase03.clases;
 
 import java.util.ArrayList;
 import java.util.Arrays;
