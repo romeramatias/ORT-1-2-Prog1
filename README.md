@@ -1,2 +1,19 @@
-# ort-1-2-prog1
-Programación 1, asignatura donde vemos algoritmos en pseudocódigos y los adapto a Java
+# ORT-1-2-Prog1
+Programacion 1 es una asignatura del primer año, segundo cuatrimestre de la carrera Analista de Sistemas en ORT Argentina, correlativa a Fundamentos de Programacion.
+En esta materia vemos algoritmos en pseudocódigos y los llevo a lenguaje Java para probar y analizar su funcionamiento.
+Las unidades abarcan con los siguientes contenidos:
+
+Unidad 1 
+- Estructuras de datos estaticas
+- Array
+- Matrices
+
+Unidad 2
+- Agregacion
+- Composicion
+
+Unidad 3
+- Herencia
+- Clases Abstractas
+- Polimorfismo
+- Interfaces
