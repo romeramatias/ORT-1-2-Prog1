@@ -1,0 +1,4 @@
+Ejercicio practica de interfaces con una empresa de mensajeria que
+guarda en un ArrayList objetos que implementan la interface EnviadorDeMensajes 
+sin importar de que clase sean (Paloma o Telefono).
+
