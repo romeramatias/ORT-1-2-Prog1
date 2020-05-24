@@ -7,6 +7,7 @@ Unidad 1
 - Estructuras de datos estaticas
 - Array
 - Matrices
+- Static
 
 Unidad 2
 - Agregacion
@@ -17,3 +18,8 @@ Unidad 3
 - Clases Abstractas
 - Polimorfismo
 - Interfaces
+
+Unidad 4
+- Tipos abstractos de datos
+- Pilas
+- Colas
