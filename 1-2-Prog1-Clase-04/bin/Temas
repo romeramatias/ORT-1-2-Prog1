@@ -1,0 +1,32 @@
+Introduccion a herencia, polimorfismo y clases abstractas
+
+HERENCIA:
+Para indicar herencia la flecha va al reves (es un) con la punta triangular
+
+PROTECTED:
+El modificador de acceso protected da acceso de atributos o metodos a las subclases 
+pero tambien da acceso a todas las clases que estan en el mismo paquete
+por ende no es recomendable de usar ya que, puede haber una clase en el mismo paquete
+que no sea subclase de la superclase
+
+Una subclase hereda de su superclase todo los atributos y metodos que no sean privados
+A los atributos privados se acceden mediante sus getters y setters
+
+super() es el constructor de la superclase y se le deben enviar los parametros correspondientes
+
+POLIMORFISMO:
+Se entiende a polimorfismo como la capacidad de adquirir distintas formas a metodos
+de subclases, la subclase hace un override del metodo
+Ejemplo: 
+SubClases			Superclase
+PERRO ladrar()		MASCOTA
+GATO maullar()
+LORO parlotear()
+
+Intentamos generalizar la accion, un nombre comun seria hacerGracia()
+le cambiamos el nombre a los metodos de los distintos animales a hacerGracia()
+y segun a quien se le pida el metodo hara lo correspondiente de las distintas clases
+
+
+
+

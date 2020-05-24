@@ -39,29 +39,34 @@ public class DeptoDeportes {
 
 	public void verPelotasEnTope() {
 		// mostrar el peek de las tres pilas
-		for (PilaPelotas pilaPelotas : pilasPelotas) {
+		
+		for (PilaPelotas p : this.pilasPelotas) {
 			System.out.print("Tope de la pila ");
-			System.out.println(pilaPelotas.peek());
+			System.out.println(p.peek());
 		}
 	}
 
 	public Pelota buscarPelota(String codigo) {
 		Pelota pel = null;
 		PilaPelotas aux = new PilaPelotas();
-
-		for (PilaPelotas p : pilasPelotas) {
-			while (!p.isEmpty()) {
-				aux.push(p.pop());
+		int i = 0;
+		
+		while (this.pilasPelotas.size() > i && pel == null) {
+			while (!this.pilasPelotas.get(i).isEmpty()) {
+				aux.push(this.pilasPelotas.get(i).pop());
 				if (aux.peek().getCodigo().equals(codigo)) {
 					pel = aux.peek();
 				}
 			}
-			pasarElementosDe(aux, p);
+			pasarElementosDe(aux, this.pilasPelotas.get(i));
+			i++;
 		}
+		
 		return pel;
 
 	}
 	
+
 	private void pasarElementosDe(PilaPelotas source, PilaPelotas target) {
 		
 		while (!source.isEmpty()) {
@@ -69,8 +74,8 @@ public class DeptoDeportes {
 		}
 		
 	}
-
-	// Pelota pel = null;
+	
+// 	Pelota pel = null;
 //		int index = 0;
 //		// no se si puedo directamente buscar en el arraylist o que politicas tienen las pilas
 //		while (this.pilasPelotas.size() > index && pel == null) {

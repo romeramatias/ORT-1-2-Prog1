@@ -1,0 +1,21 @@
+ENUNCIADO
+
+Debemos modelar la siguiente situación:
+Una empresa de camiones cuenta con una flota de 10 vehículos y 20 choferes que trabajan en
+horarios rotativos. Por cada viaje que se realiza, se registra la siguiente información:
+	• ID del camión (1 dígito, 0-9)
+	• ID del chofer ( String )
+	• Kilómetros del viaje (Float)
+Además, contamos con la siguiente información de los choferes:
+	• ID del chofer ( String )
+	• Nombre (String)
+	• Honorarios por viaje (Float)
+Y de cada uno de los 10 camiones, nos informan:
+	• ID del camión (1 dígito, 0-9)
+	• Gasto promedio por kilómetro recorrido (Float).
+Nos piden:
+	• Realizar el diagrama de clases que represente el modelo.
+	• Desarrollar el método informarCostoViajes que muestre por pantalla cual fue el costo
+	aproximado de cada viaje (honorario + consumo del camión)
+	• Desarrollar el método informarViajesXChoferCamion que muestre por pantalla el
+	nombre de cada chofer y la cantidad de viajes que realizó con cada camión

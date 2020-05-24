@@ -1,0 +1,32 @@
+ENUNCIADO
+
+Estás contratado a prueba por un instituto terciario para llevar a cabo
+tareas estadísticas y de control sobre el estado de las comisiones.
+
+La institución guarda datos históricos sobre las comisiones donde se impartió
+clase. De cada una de ellas se conoce su código, los datos de los alumnos que
+participaron (guardados en un array) y una matriz de caracteres que
+representa la asistencia de cada alumno para cada clase, la cual podría
+representarse de la siguiente manera: Una 'P' significa Presente. Una 'T'
+significa Tarde. Una 'A' significa Ausente. Un ausente suma una falta
+completa. Una llegada tarde suma media falta.
+
+La condición para rendir el examen final es haber obtenido una asistencia
+mayor o igual al 75%.
+
+Cada columna en la matriz representa una jornada de clase. Cada fila en la
+matriz representa a un alumno, que puede encontrarse en el array haciendo
+coincidir la posición de la fila en la matriz. De cada alumno se conoce:
+legajo, apellido y edad.
+
+La institución te pide desarrollar un programa que permita, para cada
+comisión: 
+	1. Obtener el promedio de edad de los alumnos inhabilitados para
+	rendir final. 
+	2. Mostrar los apellidos de los alumnos habilitados para rendir
+	final, junto al porcentaje de presentismo de cada uno. 
+	3. Obtener el número total de llegadas tarde para todo el período de cursada. 
+	4. Mostrar el listado de porcentaje de presentismo por cada clase. (Las llegadas tarde
+	cuentan como presente). 
+	5. Obtener el número de clases con asistencia perfecta. (Las llegadas tarde cuentan 
+	como presente).

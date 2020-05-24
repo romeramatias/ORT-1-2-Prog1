@@ -1,0 +1,9 @@
+COLAS
+
+First in, first out
+
+add:	agregar a la fila
+remove: quitar de la fila
+
+inserta al igual que la pila, al final
+QUITA del principio, a diferencia de las pilas
