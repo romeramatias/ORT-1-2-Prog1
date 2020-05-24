@@ -1,12 +1,13 @@
 ENUNCIADO
 
-Un club de futbol (del que se sabe su nombre y año de fundación) tiene un plantel de 18
-jugadores, de los cuales se conoce su posición, edad, número, apellido, pierna hábil y si es
+Un club de futbol (del que se sabe su nombre y aÃ±o de fundaciÃ³n) tiene un plantel de 18
+jugadores, de los cuales se conoce su posiciÃ³n, edad, nÃºmero, apellido, pierna hÃ¡bil y si es
 titular o no.
 
+
 1. Desarrollar el diagrama UML.
-2. Definir e implementar métodos que permitan:
-	A. Mostrar una lista de jugadores según la posición deseada.
+2. Definir e implementar mÃ©todos que permitan:
+	A. Mostrar una lista de jugadores segÃºn la posiciÃ³n deseada.
 	B. Obtener una lista de jugadores titulares que superen cierta edad deseada.
-	C. Cambiar el número de camiseta de cierto jugador, si es que no lo tiene otro
+	C. Cambiar el nÃºmero de camiseta de cierto jugador, si es que no lo tiene otro
 	jugador, de lo contrario, no efectuar el cambio.
