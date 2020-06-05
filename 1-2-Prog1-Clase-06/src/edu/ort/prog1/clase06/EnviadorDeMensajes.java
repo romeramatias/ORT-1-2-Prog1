@@ -6,7 +6,7 @@ package edu.ort.prog1.clase06;
 
 // En que casos se usan interfaces?
 // Cuando hay objetos que pertenecen a jererquias diferentes pero comparten
-// un comportamiento
+// un COMPORTAMIENTO
 // Casi siempre para los comportamientos usar interfaces
 
 // En UML se hace una flecha con la punta de herencia pero la linea punteada
