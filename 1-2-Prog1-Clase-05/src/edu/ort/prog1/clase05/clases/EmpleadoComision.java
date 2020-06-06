@@ -30,7 +30,7 @@ public class EmpleadoComision extends Empleado{
 		if (salario > SALARIO_MINIMO) {
 			return salario;
 		} else {
-		return SALARIO_MINIMO;
+			return SALARIO_MINIMO;
 		}
 	}
 

@@ -3,8 +3,8 @@
  */
 package edu.ort.prog1.clase11;
 
-import edu.ort.edu.prog1.clase11.clases.Auto;
-import edu.ort.edu.prog1.clase11.clases.ListaAutos;
+import edu.ort.prog1.clase11.clases.Auto;
+import edu.ort.prog1.clase11.clases.ListaAutos;
 
 public class Main11 {
 

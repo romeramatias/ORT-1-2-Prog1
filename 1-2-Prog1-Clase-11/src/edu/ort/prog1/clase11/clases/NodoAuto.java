@@ -1,7 +1,7 @@
 /**
  * @author romeramatias
  */
-package edu.ort.edu.prog1.clase11.clases;
+package edu.ort.prog1.clase11.clases;
 
 public class NodoAuto{
 

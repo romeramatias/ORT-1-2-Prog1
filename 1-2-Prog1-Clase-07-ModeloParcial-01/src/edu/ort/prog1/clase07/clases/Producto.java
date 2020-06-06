@@ -2,7 +2,7 @@ package edu.ort.prog1.clase07.clases;
 
 public abstract class Producto {
 
-	// cada producto debe calcular su descuento
+	// Cada producto debe calcular su descuento
 	private String nombre;
 	private double precio;
 
