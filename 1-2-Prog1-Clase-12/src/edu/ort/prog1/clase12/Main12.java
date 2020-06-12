@@ -51,8 +51,7 @@ public class Main12 {
 		
 		// Metodo eliminar
 		listaAutosPeugeot.eliminar("JJJ444");
-		
-		
+	
 		// Muestro nuevamente la lista
 		listaAutosPeugeot.mostrarTodo();
 		System.out.println();
