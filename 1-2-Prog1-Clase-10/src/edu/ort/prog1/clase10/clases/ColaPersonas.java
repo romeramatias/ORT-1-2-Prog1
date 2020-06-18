@@ -20,7 +20,7 @@ public class ColaPersonas {
 	}
 	
 	public ColaPersonas() {
-		this(SIN_LIMITE);		
+		this(SIN_LIMITE);	
 	}
 	
 	// Metodos de colas

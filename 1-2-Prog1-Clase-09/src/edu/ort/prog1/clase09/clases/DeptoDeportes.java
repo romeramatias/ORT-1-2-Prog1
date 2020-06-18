@@ -33,7 +33,7 @@ public class DeptoDeportes {
 			index++;
 		}
 
-		System.out.println(agregue ? "Pelota agregada" : "No hay espacio");
+		//System.out.println(agregue ? "Pelota agregada" : "No hay espacio");
 
 	}
 
@@ -50,6 +50,7 @@ public class DeptoDeportes {
 		Pelota pel = null;
 		PilaPelotas aux = new PilaPelotas();
 		int i = 0;
+		
 		
 		while (this.pilasPelotas.size() > i && pel == null) {
 			while (!this.pilasPelotas.get(i).isEmpty()) {
@@ -75,7 +76,7 @@ public class DeptoDeportes {
 		
 	}
 	
-// 	Pelota pel = null;
+// 		Pelota pel = null;
 //		int index = 0;
 //		// no se si puedo directamente buscar en el arraylist o que politicas tienen las pilas
 //		while (this.pilasPelotas.size() > index && pel == null) {

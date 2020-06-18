@@ -24,8 +24,8 @@ public class Insumo implements Facturable{
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
-	}
-
+	}	
+	
 	public TipoInsumo getTipo() {
 		return tipo;
 	}
