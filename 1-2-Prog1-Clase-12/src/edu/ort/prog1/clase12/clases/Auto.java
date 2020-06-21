@@ -1,5 +1,5 @@
 /**
- * @author romeramatias
+* @author romeramatias
  */
 package edu.ort.prog1.clase12.clases;
 
