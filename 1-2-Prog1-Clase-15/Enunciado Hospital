@@ -1,0 +1,22 @@
+Enunciado Hospital
+
+Un hospital otorga un turno a cada paciente que se va a atender respetando estrictamente el orden de llegada. Cuenta con 5 equipos médicos todos igualmente capacitados que comenzarán a atender a los pacientes que están en la sala de espera.
+
+La información de cada  paciente es:
+Nombre del paciente (string)
+Dni (string)
+Tipo de paciente (char):
+- 'U' Urgencia
+- 'C' Consulta
+- 'P' Prioridad embarazo o discapacidad
+
+De cada equipo médico conocemos el número de equipo (0 a 5) y el consultorio en el que atiende.
+
+Los datos ya se encuentran validados.
+
+Se pide:
+a)	Realizar el diagrama de clases que represente el modelo planteado incorporando los TADs necesarios para resolver el problema.
+b)	Realizar un método que tome los datos de los datos de los pacientes en la sala de espera (almacenados en el TAD que haya elegido) y los asigne alternativamente a cada uno de los equipos médicos para que los vayan atendiendo (se entiende que deben ser colocados en los TADs elegidos para almacenar la información de los pacientes a ser atendidos por cada equipo médico).
+En la asignación se debe tener en cuenta que los pacientes que vengan por un tipo de consulta 'U' o 'P' (Urgencia o Prioridad) deben ser atendidos antes que las 'C' (Consultas).
+
+En el caso de tener que trabajar con un TAD Cola, no se debe utilizar colas auxiliares para guardar la misma información. Se debe resolver según se vio en clase. No se pueden utilizar tampoco pilas, listas, arrayLists, vectores, matrices, maps, cientos de variables sueltas ni ninguna otra estructura de datos auxiliar que no se haya utilizado en clase.

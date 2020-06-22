@@ -57,6 +57,9 @@ public class Robot {
 		// de la cola
 		Factura facturaEncontrada = null;
 		Factura facturaAux;
+		
+		numCola++;
+		
 		// Agregamos el centinela a la cola
 		this.colaDeFacturas[numCola].add(new Factura(CODIGO_CENTINELA, TipoFactura.ABL, -1));
 		// Guardo en una variable la primer persona de la cola
