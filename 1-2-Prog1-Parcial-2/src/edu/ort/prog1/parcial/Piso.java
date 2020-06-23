@@ -26,12 +26,14 @@ public class Piso implements Estacionamiento{
 	@Override
 	public Vehiculo retirar(String patente) {
 		final String PATENTE_CENTINELA = "-1";
+		final int LIMITE_ORIGINAL = this.colaDeVehiculos.getLimite();
 		Vehiculo vehiculoEncontrado = null;
 		Vehiculo vehiculoAux;
 		
-		if (this.colaDeVehiculos.isEmpty()) {
-			return vehiculoEncontrado;
+		if (this.colaDeVehiculos.isFull()) {
+			this.colaDeVehiculos.setLimite(LIMITE_ORIGINAL + 1);
 		}
+		
 		
 		this.colaDeVehiculos.add(new Vehiculo(PATENTE_CENTINELA));
 		vehiculoAux = this.colaDeVehiculos.remove();
@@ -44,6 +46,8 @@ public class Piso implements Estacionamiento{
 			}
 			vehiculoAux = this.colaDeVehiculos.remove();
 		}
+		
+		this.colaDeVehiculos.setLimite(LIMITE_ORIGINAL);
 		
 		return vehiculoEncontrado;
 	}
