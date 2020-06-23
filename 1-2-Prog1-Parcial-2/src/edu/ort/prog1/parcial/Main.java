@@ -7,9 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Garage garage = new Garage();
-		
-		System.out.println();
-		
+				
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
