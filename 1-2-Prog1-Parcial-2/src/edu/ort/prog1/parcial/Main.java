@@ -12,6 +12,13 @@ public class Main {
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
 		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
+		System.out.println(garage.estacionar(new Vehiculo("xx", "ford", "f100")));
 		System.out.println(garage.estacionar(new Vehiculo("RR", "ford", "f100")));
 
 		System.out.println(garage);

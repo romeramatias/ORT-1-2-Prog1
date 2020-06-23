@@ -29,6 +29,10 @@ public class Piso implements Estacionamiento{
 		Vehiculo vehiculoEncontrado = null;
 		Vehiculo vehiculoAux;
 		
+		if (this.colaDeVehiculos.isEmpty()) {
+			return vehiculoEncontrado;
+		}
+		
 		this.colaDeVehiculos.add(new Vehiculo(PATENTE_CENTINELA));
 		vehiculoAux = this.colaDeVehiculos.remove();
 
