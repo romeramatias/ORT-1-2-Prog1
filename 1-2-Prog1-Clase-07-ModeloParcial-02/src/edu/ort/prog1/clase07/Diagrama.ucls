@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="edu.ort.prog1.clase07.ArticuloExportacion" 
+    project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/ArticuloExportacion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="206" x="1011" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="edu.ort.prog1.clase07.Fecha" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Fecha.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="130" x="983" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="edu.ort.prog1.clase07.Empresa" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Empresa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="422" x="1134" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="edu.ort.prog1.clase07.Empleado" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Empleado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="579" y="449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="edu.ort.prog1.clase07.EmpleadoVendedor" 
+    project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/EmpleadoVendedor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="211" x="291" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="edu.ort.prog1.clase07.ItemPedido" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/ItemPedido.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="232" width="174" x="769" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="edu.ort.prog1.clase07.Articulo" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Articulo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="339" width="231" x="1134" y="1205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="edu.ort.prog1.clase07.EmpleadoDespachante" 
+    project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/EmpleadoDespachante.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="884" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="edu.ort.prog1.clase07.Pedido" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Pedido.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1379" y="573"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="10" language="java" name="edu.ort.prog1.clase07.TipoEmpleado" 
+    project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/TipoEmpleado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="197" x="54" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="11" language="java" name="edu.ort.prog1.clase07.Cliente" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Cliente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="136" x="1174" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="edu.ort.prog1.clase07.Main" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="300" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="edu.ort.prog1.clase07.ArticuloLocal" 
+    project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/ArticuloLocal.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="183" x="1257" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="edu.ort.prog1.clase07.Pais" project="1-2-Prog1-Clase-07-ModeloParcial-02" 
+    file="/1-2-Prog1-Clase-07-ModeloParcial-02/src/edu/ort/prog1/clase07/Pais.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="924" y="132"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="16">    
+    <bendpoint x="1164" y="410"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="17" name="cliente"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="20" name="cliente"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="23" name="tipo"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="26" name="vendedor"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="30">    
+    <bendpoint x="1143" y="410"/>    
+    <bendpoint x="1143" y="915"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="31" name="articulos"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="34" name="fecha"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="37" name="despachante"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="40" name="items"/>      
+      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="43" name="empleados"/>      
+      <multiplicity id="44" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="46">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="47" name="pedidos"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="50" name="articulo"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

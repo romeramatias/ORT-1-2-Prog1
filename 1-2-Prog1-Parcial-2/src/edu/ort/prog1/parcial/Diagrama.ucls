@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="edu.ort.prog1.parcial.Garage" project="1-2-Prog1-Parcial-2" 
     file="/1-2-Prog1-Parcial-2/src/edu/ort/prog1/parcial/Garage.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="172" y="500"/>    
+    <position height="-1" width="-1" x="380" y="501"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <interface id="2" language="java" name="edu.ort.prog1.parcial.Estacionamiento" project="1-2-Prog1-Parcial-2" 
     file="/1-2-Prog1-Parcial-2/src/edu/ort/prog1/parcial/Estacionamiento.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="466" y="430"/>    
+    <position height="-1" width="-1" x="672" y="499"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </interface>  
   <class id="3" language="java" name="edu.ort.prog1.parcial.Piso" project="1-2-Prog1-Parcial-2" 
     file="/1-2-Prog1-Parcial-2/src/edu/ort/prog1/parcial/Piso.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="303" y="182"/>    
+    <position height="-1" width="-1" x="417" y="140"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="edu.ort.prog1.parcial.ColaVehiculos" project="1-2-Prog1-Parcial-2" 
     file="/1-2-Prog1-Parcial-2/src/edu/ort/prog1/parcial/ColaVehiculos.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="753" y="168"/>    
+    <position height="-1" width="-1" x="938" y="140"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="edu.ort.prog1.parcial.Vehiculo" project="1-2-Prog1-Parcial-2" 
     file="/1-2-Prog1-Parcial-2/src/edu/ort/prog1/parcial/Vehiculo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="765" y="551"/>    
+    <position height="-1" width="-1" x="937" y="570"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -47,11 +47,15 @@
     </display>  
   </class>  
   <association id="6">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="7" name="colaDeVehiculos"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="7" name="pisos">        
+        <position height="0" width="0" x="114" y="-42"/>      
+      </attribute>      
+      <multiplicity id="8" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="114" y="-42"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <realization id="9">    
@@ -59,17 +63,25 @@
     <end type="TARGET" refId="2"/>  
   </realization>  
   <association id="10">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="11" name="pisos"/>      
-      <multiplicity id="12" minimum="0" maximum="2147483647"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="11" name="colaDeVehiculos">        
+        <position height="0" width="0" x="185" y="-28"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="185" y="-28"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="13">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="14" name="vehiculos"/>      
-      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+      <attribute id="14" name="vehiculos">        
+        <position height="0" width="0" x="172" y="19"/>      
+      </attribute>      
+      <multiplicity id="15" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="172" y="19"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

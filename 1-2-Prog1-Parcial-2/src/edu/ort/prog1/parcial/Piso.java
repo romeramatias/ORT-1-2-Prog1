@@ -19,8 +19,7 @@ public class Piso implements Estacionamiento{
 			return true;
 		} else {
 			return false;
-		}
-		
+		}		
 	}
 
 	@Override

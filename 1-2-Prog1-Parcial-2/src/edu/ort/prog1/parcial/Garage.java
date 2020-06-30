@@ -59,7 +59,7 @@ public class Garage implements Estacionamiento {
 		boolean hayLugar = false;
 		int index = 0;
 		
-		while (!hayLugar & CANT_PISOS > index) {
+		while (!hayLugar & CANT_PISOS-1 > index) {
 			hayLugar = this.pisos[index].hayLugar();
 			index++;
 		}
