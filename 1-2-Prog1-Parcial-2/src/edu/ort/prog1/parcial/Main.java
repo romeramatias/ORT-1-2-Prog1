@@ -74,7 +74,7 @@ public class Main {
 		System.out.println();
 		System.out.println(garage.estacionar(new Vehiculo("AAA EXCEDIDO", "Ford", "F100")));
 
-		// Compruebo si el vehiculo GGG 222 fue retirado del piso
+		// Compruebo si el vehiculo AAA 23 fue retirado del piso
 		System.out.println(garage);
 		
 		
