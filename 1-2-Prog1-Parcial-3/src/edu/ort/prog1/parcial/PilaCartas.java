@@ -83,7 +83,7 @@ public class PilaCartas {
 
 	@Override
 	public String toString() {
-		return "PilaCartas [cartas=" + cartas + ", limite=" + limite + "]";
+		return "PilaCartas [cartas=" + cartas + ", limite=" + limite + "]\n";
 	}
 
 }

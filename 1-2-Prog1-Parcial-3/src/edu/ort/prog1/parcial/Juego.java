@@ -18,13 +18,6 @@ public class Juego {
 		agregarOperacionesACola();
 	}
 
-	private void agregarOperacionesACola() {
-		this.colaDeOperaciones.add(new Operacion("99", TipoOperacion.ELIMINAR, 2, 1));
-		this.colaDeOperaciones.add(new Operacion("98", TipoOperacion.DERECHA, 1, 2));
-		this.colaDeOperaciones.add(new Operacion("97", TipoOperacion.IZQUIERDA, 3, 6));
-
-	}
-
 	public void procesarOperaciones() {
 		Operacion ope;
 
@@ -155,6 +148,14 @@ public class Juego {
 		this.mazos[3].push(new Carta("16", 'Z'));
 		this.mazos[3].push(new Carta("17", 'N'));
 	}
+	
+
+	private void agregarOperacionesACola() {
+		this.colaDeOperaciones.add(new Operacion("99", TipoOperacion.ELIMINAR, 2, 1));
+		this.colaDeOperaciones.add(new Operacion("98", TipoOperacion.DERECHA, 1, 2));
+		this.colaDeOperaciones.add(new Operacion("97", TipoOperacion.IZQUIERDA, 3, 6));
+
+	}
 
 	public ColaOperaciones getColaDeOperaciones() {
 		return colaDeOperaciones;
@@ -178,7 +179,7 @@ public class Juego {
 
 	@Override
 	public String toString() {
-		return "Juego [colaDeOperaciones=" + colaDeOperaciones + ", mazos=" + Arrays.toString(mazos) + "]";
+		return "Juego\n[colaDeOperaciones=" + colaDeOperaciones + "\nMazos=" + Arrays.toString(mazos) + "]";
 	}
 
 }
