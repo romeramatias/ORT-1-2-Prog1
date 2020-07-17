@@ -10,6 +10,7 @@ public class Garage implements Estacionamiento {
 	private final int CANT_COCHERAS = 10;
 	private Piso[] pisos;
 
+	
 	public Garage() {
 		super();
 		crearPisos();

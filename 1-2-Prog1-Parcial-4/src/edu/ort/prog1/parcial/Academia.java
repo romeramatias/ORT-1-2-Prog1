@@ -27,6 +27,7 @@ public class Academia {
 
 	private void inicializarCursos() {
 		this.cursos = new Curso[CANT_CURSOS];
+		
 		for (int i = 0; i < cursos.length; i++) {
 			this.cursos[i] = new Curso();
 		}
