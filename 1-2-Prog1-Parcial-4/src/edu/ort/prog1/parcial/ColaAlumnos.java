@@ -17,6 +17,7 @@ public class ColaAlumnos {
 		this.limite = limite;
 	}
 	
+	
 	public ColaAlumnos() {
 		this(SIN_LIMITE);	
 	}
