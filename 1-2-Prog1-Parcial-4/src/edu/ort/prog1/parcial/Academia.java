@@ -13,6 +13,7 @@ public class Academia {
 	// INSCRIPTOS COLA
 	// ASIGNADOS PILA
 	
+	
 	public Academia() {
 		super();
 		this.colaDeAlumnosAInscribir = new ColaAlumnos();
