@@ -7,7 +7,7 @@ import edu.ort.prog1.clase01.clases.Posicion;
 public class Main01 {
 
 	public static void main(String[] args) {
-		
+			
 		Club RiverPlate = new Club("River Plate", 1901);
 		
 		RiverPlate.agregarJugador(23, 14, "Romera", true, PiernaHabil.DERECHA, Posicion.DEFENSOR, 0);
